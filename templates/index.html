@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <section class="book_section layout_padding">
+        <div class="container d-flex flex-column align-items-center">
+            <div class="heading_container">
+                <h2>Bienvenido a mi proyecto de Django</h2>
+            </div>
+            <div class="row form_proyecto d-flex flex-column align-content-center">
+                <div class="col-md-12">
+                    <a href="{% url 'proyectos:home' %}" type="boton"> IR AL PROYECTO</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}  

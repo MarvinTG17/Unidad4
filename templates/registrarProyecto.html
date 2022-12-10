@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    {% if form.errors %}
+    <div class="alert alert-danger" role="alert">
+        Error en los campos del formulario
+      </div>
+    {% endif %}
+
+    <section class="book_section layout_padding">
+        <div class="container d-flex flex-column align-items-center">
+            {% if mensaje%}
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>Proyecto registrado correctamente! </strong> 
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            {% endif %}
+            <div class="heading_container">
+                <h2>Registrar Proyecto</h2>
+            </div>
+            <div class="row form_proyecto">
+                <div class="col-md-12">
+                    <div class="form_container">
+                        <form action="{% url 'proyectos:guardarProyecto' %}" method="post" class="d-flex flex-column justify-content-start" enctype="multipart/form-data">
+                            {% csrf_token %} 
+                            
+                            {{ form }}
+
+                            <button type="submit">Guardar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+        
+    
+{% endblock content %}
+    

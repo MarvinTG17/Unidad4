@@ -1,0 +1,43 @@
+.heading_container.heading_center{
+    padding-top: 20px !important; 
+}
+
+.form_proyecto{
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+.form_proyecto input{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form_proyecto label{
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.nav-item .Username {
+    font-weight: 600;
+}
+
+.sesiones{
+    width: 50%;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+
+.sesiones1{
+    width: 80%;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+
+.detail-box p{
+    font-size: 20px !important;
+    font-weight: 700;
+}
