@@ -20,8 +20,8 @@
 }
 
 .nav-item .Username {
-    font-weight: 700;
-    color: red;
+    font-weight: 700 !important;
+    color: red !important;
 }
 
 .sesiones{

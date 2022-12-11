@@ -24,6 +24,6 @@ class FormRegistrarProyecto(forms.Form):
     tipo_proyecto   = forms.CharField(widget=forms.TextInput(
                         attrs={
                             "class": "form-control",
-                            "placeholder":"Tipo proyecto: python, php, html, js",
+                            "placeholder":"Escribir solo una opcion: python, php, html, js",
                             }))
 
