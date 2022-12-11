@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['unidad4-production.up.railway.app']
 
-CSRF_TRUSTED_ORIGINS = ['https://unidad4-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://unidad4-production.up.railway.app']
 
 # Application definition
 
