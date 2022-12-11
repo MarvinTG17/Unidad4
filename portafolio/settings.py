@@ -28,6 +28,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['unidad4-production.up.railway.app']
 
+CSRF_TRUSTED_ORIGINS = ['unidad4-production.up.railway.app']
 
 # Application definition
 
