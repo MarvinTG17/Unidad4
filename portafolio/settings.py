@@ -78,16 +78,16 @@ WSGI_APPLICATION = 'portafolio.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-#mysql://root:x3kKvsV54To8BhLamGnu@containers-us-west-112.railway.app:7139/railway
+#mysql://root:yuGOcn8sRcUBrtHAI1Z2@containers-us-west-128.railway.app:5977/railway
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME':'railway',
         'USER':'root',
-        'PASSWORD':'x3kKvsV54To8BhLamGnu',
-        'HOST':'containers-us-west-112.railway.app',
-        'PORT':'7139',
+        'PASSWORD':'yuGOcn8sRcUBrtHAI1Z2',
+        'HOST':'containers-us-west-128.railway.app',
+        'PORT':'5977',
     }
 }
 
